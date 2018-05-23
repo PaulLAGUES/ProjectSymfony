@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c44f6b60-39a3-4889-80ab-9784507bd56f" name="Default" comment="" />
+=======
+    <list default="true" id="c44f6b60-39a3-4889-80ab-9784507bd56f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
+>>>>>>> 9cb17d5bbde0e226bb0c7416801be2b12d061194
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +68,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -235,21 +246,46 @@
       <updated>1526996544634</updated>
       <workItem from="1526996575324" duration="2482000" />
       <workItem from="1527061978867" duration="351000" />
+<<<<<<< HEAD
       <workItem from="1527062345093" duration="1840000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1527064066724" duration="1105000" />
+      <workItem from="1527065312391" duration="616000" />
+      <workItem from="1527066482250" duration="17000" />
+=======
+      <workItem from="1527062345093" duration="1669000" />
+>>>>>>> dd38e5e6d8373263267ca034dbea79be3427aeef
+>>>>>>> 9cb17d5bbde0e226bb0c7416801be2b12d061194
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4673000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="4571000" />
+=======
+    <option name="totallyTimeSpent" value="4502000" />
+>>>>>>> dd38e5e6d8373263267ca034dbea79be3427aeef
+>>>>>>> 9cb17d5bbde0e226bb0c7416801be2b12d061194
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+=======
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19472913" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.21144675" />
+>>>>>>> dd38e5e6d8373263267ca034dbea79be3427aeef
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -280,6 +316,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
