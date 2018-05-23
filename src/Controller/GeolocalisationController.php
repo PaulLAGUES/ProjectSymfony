@@ -12,7 +12,7 @@ class GeolocalisationController extends Controller
      */
     public function index()
     {
-        return $this->render('geolocalisation/index.html.twig', [
+        return $this->render('geolocalisation/geoloc.html.twig', [
             'controller_name' => 'GeolocalisationController',
         ]);
     }
