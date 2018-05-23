@@ -12,7 +12,7 @@ class MusicTypeController extends Controller
      */
     public function index()
     {
-        return $this->render('music_type/index.html.twig', [
+        return $this->render('music_type/music_type.html.twig', [
             'controller_name' => 'MusicTypeController',
         ]);
     }

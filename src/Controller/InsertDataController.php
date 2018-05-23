@@ -75,6 +75,8 @@ class InsertDataController extends Controller
         $Festival1->setResume("Marcellus Bastards / Pale Seas / The Rumjacks / HERMANN");
         $Festival1->setVilles($Ville2);
         $Festival1->addArtiste($Artiste2);
+        $Festival1->setDateDebut(new \DateTime('2018-08-10'));
+        $Festival1->setDateFin(new \DateTime('2018-08-15'));
         $em->persist($Festival1);
 
         $Festival2 = new Festivals();
@@ -83,6 +85,8 @@ class InsertDataController extends Controller
         $Festival2->setResume("Le temps d'un week-end, face à l'océan, retentiront en pays d'Iroise les musiques");
         $Festival2->setVilles($Ville3);
         $Festival2->addArtiste($Artiste3);
+        $Festival2->setDateDebut(new \DateTime('2018-08-20'));
+        $Festival2->setDateFin(new \DateTime('2018-08-25'));
         $em->persist($Festival2);
 
         $Festival3 = new Festivals();
@@ -91,6 +95,8 @@ class InsertDataController extends Controller
         $Festival3->setResume("festival de musiques électroniques à Brest : Astropolis.");
         $Festival3->setVilles($Ville4);
         $Festival3->addArtiste($Artiste2);
+        $Festival3->setDateDebut(new \DateTime('2018-09-05'));
+        $Festival3->setDateFin(new \DateTime('2018-08-05'));
         $em->persist($Festival3);
 
         $Festival4 = new Festivals();
@@ -99,6 +105,8 @@ class InsertDataController extends Controller
         $Festival4->setResume("Le fameux festival de métal de Saint Nolff, le Motocultor.");
         $Festival4->setVilles($Ville5);
         $Festival4->addArtiste($Artiste5);
+        $Festival4->setDateDebut(new \DateTime('2018-07-05'));
+        $Festival4->setDateFin(new \DateTime('2018-07-10'));
         $em->persist($Festival2);
 
         $Festival5 = new Festivals();
@@ -107,6 +115,8 @@ class InsertDataController extends Controller
         $Festival5->setResume("Le Festival du Roi Arthur revient avec une programmation toujours plus ambitieuse !");
         $Festival5->setVilles($Ville4);
         $Festival5->addArtiste($Artiste4);
+        $Festival5->setDateDebut(new \DateTime('2018-07-10'));
+        $Festival5->setDateFin(new \DateTime('2018-07-15'));
         $em->persist($Festival5);
 
         $Festival6 = new Festivals();
@@ -115,6 +125,8 @@ class InsertDataController extends Controller
         $Festival6->setResume("EDOUARD RAVELOMANANTSOA / PIERRICK PEDRON");
         $Festival6->setVilles($Ville3);
         $Festival6->addArtiste($Artiste3);
+        $Festival6->setDateDebut(new \DateTime('2018-07-20'));
+        $Festival6->setDateFin(new \DateTime('2018-07-25'));
         $em->persist($Festival6);
 
         $Festival7 = new Festivals();
@@ -123,6 +135,8 @@ class InsertDataController extends Controller
         $Festival7->setResume("Festival de musique celtique");
         $Festival7->setVilles($Ville6);
         $Festival7->addArtiste($Artiste2);
+        $Festival7->setDateDebut(new \DateTime('2018-08-01'));
+        $Festival7->setDateFin(new \DateTime('2018-08-05'));
         $em->persist($Festival2);
 
         $Festival8 = new Festivals();
@@ -131,6 +145,8 @@ class InsertDataController extends Controller
         $Festival8->setResume("Festival de Soutien à l'école DIWAN de GUIPEL (Ecole Associative, Gratuite, Laïque");
         $Festival8->setVilles($Ville5);
         $Festival8->addArtiste($Artiste4);
+        $Festival8->setDateDebut(new \DateTime('2018-08-25'));
+        $Festival8->setDateFin(new \DateTime('2018-08-30'));
         $em->persist($Festival8);
 
         $Festival9 = new Festivals();
@@ -139,6 +155,8 @@ class InsertDataController extends Controller
         $Festival9->setResume("Créer un festival de musiques actuelles en pleine campagne");
         $Festival9->setVilles($Ville2);
         $Festival9->addArtiste($Artiste3);
+        $Festival9->setDateDebut(new \DateTime('2018-09-01'));
+        $Festival9->setDateFin(new \DateTime('2018-09-05'));
         $em->persist($Festival9);
 
         $Festival10 = new Festivals();
@@ -147,6 +165,8 @@ class InsertDataController extends Controller
         $Festival10->setResume("Une programmation qui va faire des heureux cette année !");
         $Festival10->setVilles($Ville2);
         $Festival10->addArtiste($Artiste2);
+        $Festival10->setDateDebut(new \DateTime('2018-09-05'));
+        $Festival10->setDateFin(new \DateTime('2018-09-10'));
         $em->persist($Festival10);
 
         $Festival11 = new Festivals();
@@ -155,13 +175,15 @@ class InsertDataController extends Controller
         $Festival11->setResume("KERRI CHANDLER / LOUISAHHH!!! / SWEELY / AZF / YANN POLEWKA / UN*DEUX / GIORGIA ANGIULI / CLEFT");
         $Festival11->setVilles($Ville5);
         $Festival11->addArtiste($Artiste6);
+        $Festival11->setDateDebut(new \DateTime('2018-09-15'));
+        $Festival11->setDateFin(new \DateTime('2018-09-20'));
         $em->persist($Festival11);
 
         $em->Flush();
 
 
 
-        return $this->render('insert_data/index.html.twig', [
+        return $this->render('insert_data/insert_data.html.twig', [
             'controller_name' => 'InsertDataController',
         ]);
     }
