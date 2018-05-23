@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Festival.iml" filepath="$PROJECT_DIR$/.idea/Festival.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../moviz-sf/.idea/moviz-sf.iml" filepath="$PROJECT_DIR$/../moviz-sf/.idea/moviz-sf.iml" />
     </modules>
   </component>
 </project>
