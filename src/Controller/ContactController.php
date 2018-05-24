@@ -3,9 +3,8 @@
 namespace App\Controller;
 
 use App\Entity\Contact;
-use App\Form\ContactRepository;
+use App\Form\ContactType;
 
-use App\Form\ReviewType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -21,7 +20,7 @@ class ContactController extends Controller
         $contact=new Contact();
 
         //créé le formulaire et lui associe notre instance vide
-        $form = $this->createForm(ReviewType::class, $contact);
+        $form = $this->createForm(ContactType::class, $contact);
 
         //prend les données du formulaire et les injecte dans le review vide
         $form->handleRequest($request);
