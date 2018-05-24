@@ -1,15 +1,27 @@
 {% extends 'base.html.twig' %}
+
 {% block title %}Hello {{ controller_name }}!{% endblock %}
+
 {% block body %}
-    <h1>FESTIVAL BRETAGNE</h1>
-    <div></div><img src="/public/img/logo/logoGeoFest.png"></div>
+    <h1 id="titre">FESTIVAL BRETAGNE</h1>
+
     <body>
-    <nav>
-        <ul id="nav">
-            <li class="section"><a href="{{ path('music_type') }}" class="lien">Genre Musical</a></li>
-            <li class="section"><a href="{{ path('map') }}" class="lien">Geolocalisation</a></li>
-            <li class="section"><a href="{{ path('periode') }}" class="lien">Periode</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul id="nav">
+                <li class="section"><a href="{{ path('music_type') }}" class="lien">Genre Musical</a></li>
+                <li class="section"><a href="{{ path('map') }}" class="lien">Geolocalisation</a></li>
+                <li class="section"><a href="{{ path('periode') }}" class="lien">Periode</a></li>
+            </ul>
+        </nav><br/>
+
+
+        <div id="poster">
+        <img src="{{ asset('img/affiches/medium.jpg') }}">
+        </div>
+
+
     </body>
+    <footer>NOUS CONTACTER</footer>
+
+
 {% endblock %}
