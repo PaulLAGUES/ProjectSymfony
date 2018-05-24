@@ -12,17 +12,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class ContactController extends Controller
 {
     /**
-     * @Route("/contact", name="contact_create")
+     * @Route("/Contact/{id}/create", name="contact_create")
      */
     public function createContact($id, Request $request)
     {
-        //crée une instance de de Contact vide
+        //crée une instance de de Nom vide
         $contact=new Contact();
 
         //créé le formulaire et lui associe notre instance vide
         $form = $this->createForm(ContactType::class, $contact);
 
-        //prend les données du formulaire et les injecte dans le review vide
+        //prend les données du formulaire et les injecte dans le contact vide
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()){
@@ -37,7 +37,7 @@ class ContactController extends Controller
 
         return $this->render("contact/contact.html.twig", [
             "form" =>$form->createView(),
-            'controller_name' => 'ContactController',
+
         ]);
     }
 }

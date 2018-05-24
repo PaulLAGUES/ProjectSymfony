@@ -20,7 +20,7 @@ class ContactRepository extends ServiceEntityRepository
     }
 
 //    /**
-//     * @return Contact[] Returns an array of Contact objects
+//     * @return Contact[] Returns an array of Nom objects
 //     */
     /*
     public function findByExampleField($value)

@@ -16,28 +16,28 @@ class Contact
      */
     private $id;
     /**
-     * @Assert\Length(
+     * Assert\Length(
      *     min="3",
-     *     minMessage="Your fucking username is too short bitch!. 3 characters minimum please, motherfucker!",
-     *     maxMessage="15 max please! Sucker!"
+     *     minMessage="Votre nom est trop court, 3 caractères minimum",
+     *     max="255",
+     *     maxMessage="Votre nom est trop long, 255 caractères max."
      * )
+     *  @Assert\NotBlank(message="Votre nom est manquant.")
      * @ORM\Column(type="string", length=15)
      */
-
-    private $Contact;
+    private $Nom;
 
     /**
      * @Assert\Length(
      *     min="3",
-     *     minMessage="Votre username est trop court, 3 caractères minimum",
+     *     minMessage="Votre nom est trop court, 3 caractères minimum",
      *     max="255",
-     *     maxMessage="Votre username est trop long, 255 caractères max."
-     *
+     *     maxMessage="Votre nom est trop long, 255 caractères max."
      * )
-     * @Assert\NotBlank(message="Votre username est manquant.")
+     * @Assert\NotBlank(message="Votre prénom est manquant.")
      * @ORM\Column(type="string", length=255)
      */
-    private $Surname;
+    private $Prenom;
 
     /**
      * @Assert\Email(message="Votre email n'est pas valide")
@@ -47,36 +47,37 @@ class Contact
     private $Email;
 
     /**
-     *
+     * @Assert\NotBlank(message="Laissez un commentaire...")
      * @ORM\Column(type="text")
      */
     private $Comment;
+
 
     public function getId()
     {
         return $this->id;
     }
 
-    public function getContact(): ?string
+    public function getNom(): ?string
     {
-        return $this->Contact;
+        return $this->Nom;
     }
 
-    public function setContact(string $Contact): self
+    public function setNom(string $Nom): self
     {
-        $this->Contact = $Contact;
+        $this->Nom = $Nom;
 
         return $this;
     }
 
-    public function getSurname(): ?string
+    public function getPrenom(): ?string
     {
-        return $this->Surname;
+        return $this->Prenom;
     }
 
-    public function setSurname(string $Surname): self
+    public function setPrenom(string $Prenom): self
     {
-        $this->Surname = $Surname;
+        $this->Prenom = $Prenom;
 
         return $this;
     }
