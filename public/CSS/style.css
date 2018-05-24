@@ -1,0 +1,42 @@
+body {
+    background-image: url("../img/background/concert.jpg");
+}
+
+#nav{
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+    background-color: lightslategray;
+}
+.section{
+    display:inline-block;
+    width: 290px;
+    height: 40px;
+    margin:0px;
+    padding:0px;
+    border-right:1px solid #CCCCCC;
+    text-align:center;
+    line-height:40px;
+}
+
+.lien{
+    diplay:block;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+#titre{
+    text-align:center;
+    font-family: Arial;
+    color: blanchedalmond;
+
+}
+
+#poster{
+    text-align:center;
+}
+footer{
+    text-align:center;
+    font-weight: bold;
+    color: firebrick;
+}

@@ -12,7 +12,7 @@ class PeriodeController extends Controller
      */
     public function index()
     {
-        return $this->render('periode/index.html.twig', [
+        return $this->render('periode/periode.html.twig', [
             'controller_name' => 'PeriodeController',
         ]);
     }
