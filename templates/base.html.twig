@@ -9,5 +9,11 @@
     <body>
         {% block body %} Hello {% endblock %}
         {% block javascripts %}{% endblock %}
+        {# you can read and display just one flash message type... #}
+        {% for message in app.flashes('success') %}
+            <div class="flash-notice">
+                {{ message }}
+            </div>
+        {% endfor %}
     </body>
 </html>

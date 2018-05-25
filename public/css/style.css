@@ -25,31 +25,41 @@ body {
 }
 
 .formulaire label {
+    color: #CFF900;
     display: inline;
     float:left;
     width: 70px;
     margin-left: 450px;
     margin-right: auto;
     margin-bottom: 30px;
-    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 
 
 }
 .formulaire input{
+    color: #CFF900;
     display: inline;
+    float:left;
     width: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 }
 
 .formulaire button{
+    color: #CFF900;
     display: block;
+    position:absolute;
+    bottom: 250px;
+    right: 415px;
     width: 150px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+    font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 
+}
+div{
+    color: #CFF900;
+    display: inline;
 }

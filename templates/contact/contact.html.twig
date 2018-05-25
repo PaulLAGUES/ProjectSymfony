@@ -6,10 +6,4 @@
     <div class="formulaire">
     {{ form(form, {"attr": {"novalidate" : "novalidate"}}) }}
     </div>
-    {# you can read and display just one flash message type... #}
-    {% for message in app.flashes('success') %}
-    <div class="flash-notice">
-        {{ message }}
-    </div>
-    {% endfor %}
 {% endblock %}
