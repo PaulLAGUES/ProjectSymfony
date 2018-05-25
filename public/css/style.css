@@ -26,22 +26,17 @@ body {
 
 .formulaire label {
     color: #CFF900;
-    display: inline;
-    float:left;
-    width: 70px;
-    margin-left: 450px;
-    margin-right: auto;
-    margin-bottom: 30px;
+    display: block;
     font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 
 
 }
 .formulaire input{
+    display:block;
     color: #CFF900;
-    display: inline;
-    float:left;
-    width: 150px;
-    margin-left: auto;
+    width: 30%;
+    height: 30px;
+    margin-left: 3%;
     margin-right: auto;
     margin-bottom: 30px;
     font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
@@ -49,17 +44,28 @@ body {
 
 .formulaire button{
     color: #CFF900;
-    display: block;
-    position:absolute;
+    margin-left: 3%;
+    margin-top: 30px;
     bottom: 250px;
-    right: 415px;
     width: 150px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 
 }
-div{
+
+#contact li{
+    margin-left: 3%;
     color: #CFF900;
-    display: inline;
+    display: block;
+ }
+#contact ul{
+    margin-left: 3%;
+    color: #CFF900;
+    display: block;
+}
+
+#contact textarea {
+    width: 30%;
+    margin-left: 3%;
+    color: #CFF900;
+    display: block;
 }

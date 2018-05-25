@@ -18,9 +18,9 @@ class Contact
     /**
      * Assert\Length(
      *     min="3",
-     *     minMessage="Votre nom est trop court, 3 caractères minimum",
+     *     minMessage="Le nom est trop court, 3 caractères min.",
      *     max="255",
-     *     maxMessage="Votre nom est trop long, 255 caractères max."
+     *     maxMessage="Le nom est trop long, 255 caractères max."
      * )
      *  @Assert\NotBlank(message="Votre nom est manquant.")
      * @ORM\Column(type="string", length=50)
@@ -30,9 +30,9 @@ class Contact
     /**
      * @Assert\Length(
      *     min="3",
-     *     minMessage="Votre prénom est trop court, 3 caractères minimum",
+     *     minMessage="Le prénom est trop court, 3 caractères min.",
      *     max="255",
-     *     maxMessage="Votre prénom est trop long, 255 caractères max."
+     *     maxMessage="Le prénom est trop long, 255 caractères max."
      * )
      * @Assert\NotBlank(message="Votre prénom est manquant.")
      * @ORM\Column(type="string", length=255)
@@ -40,8 +40,8 @@ class Contact
     private $Prenom;
 
     /**
-     * @Assert\Email(message="Votre email n'est pas valide")
-     * @Assert\NotBlank(message="Vous n'avez pas indiqué votre email.")
+     * @Assert\Email(message="L'email n'est pas valide")
+     * @Assert\NotBlank(message="Pas d'email entré.")
      * @ORM\Column(type="string", length=255)
      */
     private $Email;

@@ -32,7 +32,7 @@ class ContactController extends Controller
             $em->flush();
 
             //ce message est censée s'afficher sur la page en validation du commentaire
-            $this->addFlash("success", "Ton commentaire est enregistré, une réponse te sera envoyée rapidement!");
+            $this->addFlash("success", "Ton commentaire est enregistré");
         }
 
         return $this->render("contact/contact.html.twig", [
