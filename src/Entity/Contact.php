@@ -23,16 +23,16 @@ class Contact
      *     maxMessage="Votre nom est trop long, 255 caractères max."
      * )
      *  @Assert\NotBlank(message="Votre nom est manquant.")
-     * @ORM\Column(type="string", length=15)
+     * @ORM\Column(type="string", length=50)
      */
     private $Nom;
 
     /**
      * @Assert\Length(
      *     min="3",
-     *     minMessage="Votre nom est trop court, 3 caractères minimum",
+     *     minMessage="Votre prénom est trop court, 3 caractères minimum",
      *     max="255",
-     *     maxMessage="Votre nom est trop long, 255 caractères max."
+     *     maxMessage="Votre prénom est trop long, 255 caractères max."
      * )
      * @Assert\NotBlank(message="Votre prénom est manquant.")
      * @ORM\Column(type="string", length=255)

@@ -12,9 +12,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class ContactController extends Controller
 {
     /**
-     * @Route("/Contact/{id}/create", name="contact_create")
+     * @Route("/Contact/create", name="contact_create")
      */
-    public function createContact($id, Request $request)
+    public function createContact(Request $request)
     {
         //crée une instance de de Nom vide
         $contact=new Contact();
