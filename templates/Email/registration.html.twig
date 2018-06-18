@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{# templates/emails/registration.html.twig #}
+{% block title %}<h3>Vous avez un nouveau message d'un utilisateur GeoFest</h3>{% endblock %}
+
+{% block body %}
+    <p>L'utilisateur se nomme {{ Nom }} {{ Prenom }} .</p>
+    <p>Le mail pour lui répondre est :  {{ Email }}.</p>
+    <p>Son commentaire est le suivant : </p>
+    <p>{{ Comment }}.</p>
+    {% endblock %}
+
+

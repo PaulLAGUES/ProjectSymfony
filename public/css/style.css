@@ -25,7 +25,7 @@ body {
 }
 
 .formulaire label {
-    color: #CFF900;
+    color: #D35400;
     display: block;
     font-family: Monaco, "DejaVu Sans Mono", "Lucida Console", "Andale Mono", monospace;
 
@@ -33,7 +33,7 @@ body {
 }
 .formulaire input{
     display:block;
-    color: #CFF900;
+    color: #D35400;
     width: 30%;
     height: 30px;
     margin-left: 3%;
@@ -43,7 +43,7 @@ body {
 }
 
 .formulaire button{
-    color: #CFF900;
+    color: #D35400;
     margin-left: 3%;
     margin-top: 30px;
     bottom: 250px;
@@ -54,18 +54,18 @@ body {
 
 #contact li{
     margin-left: 3%;
-    color: #CFF900;
+    color: #D35400;
     display: block;
  }
 #contact ul{
     margin-left: 3%;
-    color: #CFF900;
+    color: #D35400;
     display: block;
 }
 
 #contact textarea {
     width: 30%;
     margin-left: 3%;
-    color: #CFF900;
+    color: #D35400;
     display: block;
 }

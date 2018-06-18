@@ -41,7 +41,7 @@ class Contact
 
     /**
      * @Assert\Email(message="L'email n'est pas valide")
-     * @Assert\NotBlank(message="Pas d'email entré.")
+     * @Assert\NotBlank(message="Email obligatoire.")
      * @ORM\Column(type="string", length=255)
      */
     private $Email;
